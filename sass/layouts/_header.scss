@@ -1,14 +1,11 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-
-  height: 90px;
+  align-items: center;
 
   &__logo {
     width: 75px;
     height: 24px;
-    padding-left: 25px;
   }
   &__navigation {
     display: flex;

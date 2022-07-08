@@ -1,0 +1,75 @@
+.hero {
+  display: block;
+  height: 720px;
+  background-image: url('../images/hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: 120px;
+  &__benefits-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+
+    color: $main-color;
+
+    padding-top: 145px;
+    margin-bottom: 40px;
+  }
+  &__search {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: $main-color;
+    margin-bottom: 20px;
+
+    &-button {
+      display: inline-block;
+      width: 123px;
+      height: 60px;
+      color: $dark-theme-color;
+      background-color: $light-theme-color;
+      border: none;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      margin-left: -5px;
+    }
+  }
+
+  &__search-input {
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    line-height: 20px;
+
+    &::placeholder {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      padding-left: 20px;
+      color: #222222;
+    }
+  }
+  &__benefits-list {
+    width: 1200px;
+    height: 171px;
+    margin: 0 auto;
+    background-color: $dark-theme-color;
+    margin-top: 225px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
