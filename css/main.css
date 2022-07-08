@@ -125,8 +125,7 @@ img {
   height: 720px;
   background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-left: 120px;
+  background-size: contain;
 }
 
 .hero__benefits-list {
@@ -142,7 +141,8 @@ img {
   font-size: 36px;
   line-height: 46px;
   color: #214e41;
-  padding-top: 145px;
+  padding-top: 115px;
+  padding-left: 120px;
   margin-bottom: 40px;
 }
 
@@ -154,6 +154,7 @@ img {
   line-height: 24px;
   color: #214e41;
   margin-bottom: 20px;
+  padding-left: 120px;
 }
 
 .hero__search-button {
@@ -166,6 +167,10 @@ img {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   margin-left: -5px;
+}
+
+.hero__search-form {
+  padding-left: 120px;
 }
 
 .hero__search-input {
@@ -190,10 +195,40 @@ img {
 .hero__benefits-list {
   width: 1200px;
   height: 171px;
-  margin: 0 auto;
   background-color: #ffffff;
-  margin-top: 225px;
+  margin: 200px auto 0px;
+  padding-left: 50px;
   border-radius: 6px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.hero__benefits-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 7px;
+  color: #214e41;
+}
+
+.hero__benefits-image {
+  margin-right: 10px;
+}
+
+.hero__benefits-item {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 50px;
+  margin-right: 50px;
+}
+
+.hero__benefits-description {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #214e41;
 }
 /*# sourceMappingURL=main.css.map */

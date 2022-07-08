@@ -3,9 +3,8 @@
   height: 720px;
   background-image: url('../images/hero-bg.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
-  padding-left: 120px;
   &__benefits-list {
     display: flex;
     justify-content: space-between;
@@ -20,7 +19,8 @@
 
     color: $main-color;
 
-    padding-top: 145px;
+    padding-top: 115px;
+    padding-left: 120px;
     margin-bottom: 40px;
   }
   &__search {
@@ -31,6 +31,7 @@
     line-height: 24px;
     color: $main-color;
     margin-bottom: 20px;
+    padding-left: 120px;
 
     &-button {
       display: inline-block;
@@ -44,7 +45,9 @@
       margin-left: -5px;
     }
   }
-
+  &__search-form {
+    padding-left: 120px;
+  }
   &__search-input {
     width: 280px;
     height: 60px;
@@ -63,13 +66,42 @@
       color: #222222;
     }
   }
-  &__benefits-list {
-    width: 1200px;
-    height: 171px;
-    margin: 0 auto;
-    background-color: $dark-theme-color;
-    margin-top: 225px;
-    border-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  &__benefits {
+    &-list {
+      width: 1200px;
+      height: 171px;
+      background-color: $dark-theme-color;
+      //   margin-top: 225px;
+      margin: 200px auto 0px;
+      padding-left: 50px;
+      border-radius: 6px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+    &-title {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 7px;
+      color: $main-color;
+    }
+    &-image {
+      margin-right: 10px;
+    }
+    &-item {
+      display: flex;
+      align-items: flex-start;
+      padding-top: 50px;
+      margin-right: 50px;
+    }
+    &-description {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: $main-color;
+    }
   }
 }
