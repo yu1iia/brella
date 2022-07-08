@@ -1,1 +1,123 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.container {
+  padding: 30px 20px 50px;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
+.section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:focus {
+  color: title-color;
+}
+
+.address {
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 90px;
+}
+
+.header__logo {
+  width: 75px;
+  height: 24px;
+  padding-left: 25px;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #214e41;
+}
+
+.header__navigation-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.header__navigation-item:not(last-child) {
+  margin-right: 50px;
+}
+
+.header__navigation-item:last-child {
+  margin-right: 70px;
+}
+
+.header__navigation-link:hover {
+  color: #43806c;
+}
+
+.header__navigation-link:visited {
+  color: #214e41;
+}
+
+.header__request-button {
+  margin-right: 30px;
+  width: 137px;
+  height: 40px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #43806c;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.header__request-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 250ms linear;
+}
+
+.header__login {
+  margin-right: 5px;
+}
+
+.header__login-arrow {
+  margin-right: 40px;
+}
+
+.header__language {
+  margin-right: 30px;
+}
+/*# sourceMappingURL=main.css.map */
