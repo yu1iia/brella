@@ -6,6 +6,7 @@
   &__logo {
     width: 75px;
     height: 24px;
+    padding-left: 45px;
   }
   &__navigation {
     display: flex;
@@ -28,7 +29,7 @@
       margin-right: 50px;
     }
     &-item:last-child {
-      margin-right: 70px;
+      margin-right: px;
     }
     &-link {
       &:hover {
@@ -65,9 +66,9 @@
     margin-right: 5px;
   }
   &__login-arrow {
-    margin-right: 40px;
+    margin-right: 30px;
   }
   &__language {
-    margin-right: 30px;
+    margin-right: 55px;
   }
 }
