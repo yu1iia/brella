@@ -1,6 +1,4 @@
 .container {
-  padding-top: 30px;
-  padding-bottom: 30px;
   margin: 0 auto;
   width: 1440px;
 }
@@ -56,6 +54,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .header__logo {
@@ -245,7 +248,7 @@ img {
 
 .chart__container {
   display: flex;
-  padding-top: 155px;
+  padding-top: 170px;
   padding-left: 180px;
 }
 
@@ -373,7 +376,6 @@ img {
   line-height: 22px;
   text-align: center;
   color: #757575;
-  margin-top: 10px;
   margin-right: 240px;
   text-align: right;
 }
@@ -386,6 +388,7 @@ img {
   display: flex;
   justify-content: space-between;
   height: 640px;
+  margin-top: 120px;
 }
 
 .benefits__container {
@@ -453,5 +456,101 @@ img {
 
 .benefits__item:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.plan__health {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-bottom: 60px;
+}
+
+.plan__health-advantages {
+  padding-left: 70px;
+}
+
+.plan__health-advantages-label {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806c;
+  margin-bottom: 20px;
+}
+
+.plan__health-advantages-details {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.plan__health-list {
+  display: flex;
+  align-items: baseline;
+  padding-left: 120px;
+  padding-right: 120px;
+  box-sizing: border-box;
+}
+
+.plan__health-item {
+  margin-bottom: 120px;
+}
+
+.plan__health-item:not(:last-child) {
+  margin-right: 80px;
+}
+
+.plan__health-item-header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #f0a446;
+}
+
+.plan__health-item-description {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.02px;
+  color: #214e41;
+}
+
+.plan__health-advantages {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.plan__health-advantages-content {
+  margin-left: 220px;
+  padding-top: 70px;
+}
+
+.plan__health-advantages-video {
+  width: 107px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+  letter-spacing: 0.02px;
+  color: #214e41;
+  border-bottom: 2px solid #214e41;
+  padding-bottom: 5px;
 }
 /*# sourceMappingURL=main.css.map */

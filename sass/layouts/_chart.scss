@@ -1,7 +1,7 @@
 .chart {
   &__container {
     display: flex;
-    padding-top: 155px;
+    padding-top: 170px;
     padding-left: 180px;
   }
   &__label {
@@ -116,7 +116,6 @@
     line-height: 22px;
     text-align: center;
     color: $font-color;
-    margin-top: 10px;
     margin-right: 240px;
     text-align: right;
   }
