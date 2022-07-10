@@ -1,0 +1,32 @@
+.experience {
+  height: 522px;
+  background-image: url('../images/employee-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 126px;
+  padding-left: 120px;
+  box-sizing: border-box;
+  &__details {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02px;
+    color: $font-color;
+    margin-bottom: 25px;
+  }
+  &__learn-more {
+    width: 107px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: left;
+    letter-spacing: 0.02px;
+    color: $main-color;
+    border-bottom: 2px solid $main-color;
+    padding-bottom: 5px;
+  }
+}
