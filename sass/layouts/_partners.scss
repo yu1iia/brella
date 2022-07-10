@@ -1,0 +1,15 @@
+.partners {
+  padding-top: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  box-sizing: border-box;
+  &__title {
+    text-align: center;
+    margin-bottom: 110px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}

@@ -588,4 +588,22 @@ img {
   border-bottom: 2px solid #214e41;
   padding-bottom: 5px;
 }
+
+.partners {
+  padding-top: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  box-sizing: border-box;
+}
+
+.partners__title {
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
 /*# sourceMappingURL=main.css.map */
