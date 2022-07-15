@@ -1,0 +1,27 @@
+.feedback {
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__category {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    color: $light-theme-color;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  &__preview {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: $main-color;
+    margin-bottom: 120px;
+  }
+}

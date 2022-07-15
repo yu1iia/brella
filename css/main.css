@@ -505,6 +505,34 @@ img {
   padding-bottom: 5px;
 }
 
+.feedback__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feedback__category {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806c;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.feedback__preview {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #214e41;
+  margin-bottom: 120px;
+}
+
 .plan__health {
   display: flex;
   justify-content: space-between;
@@ -605,5 +633,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  border-bottom: 1px solid rgba(199, 199, 199, 0.37);
+  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 /*# sourceMappingURL=main.css.map */
