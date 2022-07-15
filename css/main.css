@@ -637,4 +637,35 @@ img {
   margin-bottom: 120px;
   padding-bottom: 120px;
 }
+
+.solution {
+  display: flex;
+  justify-content: center;
+}
+
+.solution__talk-container {
+  width: 720px;
+  height: 577px;
+  background-color: #e3eeed;
+  padding-top: 145px;
+  padding-left: 120px;
+}
+
+.solution__button {
+  width: 125px;
+  height: 47px;
+  color: #ffffff;
+  background-color: #43806c;
+  border: none;
+  border-radius: 6px;
+}
+
+.solutiontitle {
+  margin-top: 50px;
+}
+
+.solution__talk {
+  bottom: 60px;
+  margin-top: 0px;
+}
 /*# sourceMappingURL=main.css.map */

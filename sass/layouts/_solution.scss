@@ -1,0 +1,26 @@
+.solution {
+  display: flex;
+  justify-content: center;
+  &__talk-container {
+    width: 720px;
+    height: 577px;
+    background-color: #e3eeed;
+    padding-top: 145px;
+    padding-left: 120px;
+  }
+  &__button {
+    width: 125px;
+    height: 47px;
+    color: $dark-theme-color;
+    background-color: $light-theme-color;
+    border: none;
+    border-radius: 6px;
+  }
+  &title {
+    margin-top: 50px;
+  }
+  &__talk {
+    bottom: 60px;
+    margin-top: 0px;
+  }
+}
