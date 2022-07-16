@@ -7,6 +7,7 @@
     background-color: #e3eeed;
     padding-top: 145px;
     padding-left: 120px;
+    box-sizing: border-box;
   }
   &__button {
     width: 125px;
@@ -15,12 +16,16 @@
     background-color: $light-theme-color;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      transition: box-shadow 250ms linear;
+    }
   }
-  &title {
-    margin-top: 50px;
+  &__title {
+    margin-bottom: 50px;
   }
   &__talk {
-    bottom: 60px;
-    margin-top: 0px;
+    margin-bottom: 50px;
   }
 }
