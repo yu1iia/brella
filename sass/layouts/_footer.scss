@@ -1,0 +1,84 @@
+.footer {
+  background-color: $main-color;
+  height: 788px;
+  color: $dark-theme-color;
+
+  &__container {
+    margin: 0 120px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid $dark-theme-color;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  &__logo {
+    margin-right: 105px;
+  }
+  &__join-list {
+    margin-right: 115px;
+    width: 187px;
+  }
+  &__join-item {
+    width: 100%;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+    &:first-child {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 24px;
+      letter-spacing: 0.02px;
+      text-transform: uppercase;
+    }
+  }
+  &__join-link {
+    color: $dark-theme-color;
+    &:hover {
+      font-size: 16px;
+    }
+  }
+  //   &__link {
+  //     &:visited {
+  //       color: $light-theme-color;
+  //     }
+  //   }
+  &__company-list {
+    margin-right: 370px;
+  }
+  &__company-item {
+    width: 100%;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+    &:first-child {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 24px;
+      letter-spacing: 0.02px;
+      text-transform: uppercase;
+    }
+  }
+  &__policy {
+    &-details {
+      padding-top: 75px;
+    }
+  }
+  &__copyright {
+    padding-bottom: 50px;
+  }
+}

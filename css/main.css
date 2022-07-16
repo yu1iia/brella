@@ -533,6 +533,97 @@ img {
   margin-bottom: 120px;
 }
 
+.footer {
+  background-color: #214e41;
+  height: 788px;
+  color: #ffffff;
+}
+
+.footer__container {
+  margin: 0 120px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer__logo {
+  margin-right: 105px;
+}
+
+.footer__join-list {
+  margin-right: 115px;
+  width: 187px;
+}
+
+.footer__join-item {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.footer__join-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.footer__join-item:first-child {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.02px;
+  text-transform: uppercase;
+}
+
+.footer__join-link {
+  color: #ffffff;
+}
+
+.footer__join-link:hover {
+  font-size: 16px;
+}
+
+.footer__company-list {
+  margin-right: 370px;
+}
+
+.footer__company-item {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.footer__company-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.footer__company-item:first-child {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.02px;
+  text-transform: uppercase;
+}
+
+.footer__policy-details {
+  padding-top: 75px;
+}
+
+.footer__copyright {
+  padding-bottom: 50px;
+}
+
 .plan__health {
   display: flex;
   justify-content: space-between;
