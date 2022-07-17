@@ -814,10 +814,14 @@ img {
 .partners__list {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   border-bottom: 1px solid rgba(199, 199, 199, 0.37);
   margin-bottom: 120px;
   padding-bottom: 120px;
+}
+
+.partners__left-arrow-link, .partners__right-arrow-link {
+  cursor: pointer;
 }
 
 .solution {
