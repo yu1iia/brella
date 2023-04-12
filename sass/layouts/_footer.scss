@@ -78,10 +78,10 @@
       display: block;
       height: 50px;
       width: 300px;
+      padding-left: 20px;
       border: 1px solid $dark-theme-color;
       background-color: $main-color;
       &::placeholder {
-        padding: 20px;
         color: $dark-theme-color;
       }
     }

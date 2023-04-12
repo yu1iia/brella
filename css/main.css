@@ -206,6 +206,7 @@ img {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   line-height: 20px;
+  padding-left: 20px;
 }
 
 .hero__search-input::placeholder {
@@ -214,7 +215,6 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  padding-left: 20px;
   color: #222222;
 }
 
@@ -623,12 +623,12 @@ img {
   display: block;
   height: 50px;
   width: 300px;
+  padding-left: 20px;
   border: 1px solid #ffffff;
   background-color: #214e41;
 }
 
 .footer__form-email::placeholder {
-  padding: 20px;
   color: #ffffff;
 }
 
