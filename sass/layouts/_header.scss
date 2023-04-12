@@ -36,43 +36,40 @@
       margin-right: px;
     }
     &-link {
+      color: $main-color;
       &:hover {
         color: $light-theme-color;
       }
+    }
+    &__request-button {
+      margin-right: 30px;
+      width: 137px;
+      height: 40px;
 
-      &:visited {
-        color: $main-color;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+
+      color: $dark-theme-color;
+      background-color: $button-color;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: box-shadow 250ms linear;
       }
     }
-  }
-  &__request-button {
-    margin-right: 30px;
-    width: 137px;
-    height: 40px;
-
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-
-    color: $dark-theme-color;
-    background-color: $button-color;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    &:hover {
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      transition: box-shadow 250ms linear;
+    &__login {
+      margin-right: 5px;
     }
-  }
-  &__login {
-    margin-right: 5px;
-  }
-  &__login-arrow {
-    margin-right: 30px;
-  }
-  &__language {
-    margin-right: 55px;
+    &__login-arrow {
+      margin-right: 30px;
+    }
+    &__language {
+      margin-right: 55px;
+    }
   }
 }
